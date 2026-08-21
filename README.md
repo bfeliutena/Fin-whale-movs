@@ -1,32 +1,25 @@
 # Fin-whale-movs
-# [NOMBRE DEL REPOSITORIO / PROYECTO]
-
-<!-- Ejemplo: Satellite tracking and movement modelling of fin whales (Balaenoptera physalus) in the western Mediterranean -->
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
 <!-- Este badge se genera automáticamente desde Zenodo una vez creado el release. Sustituye XXXXXXX por tu DOI real. -->
 
 ## Description
 
-This repository contains the code used to [DESCRIBIR BREVEMENTE QUÉ HACE EL CÓDIGO — p. ej. "process Argos satellite tracking data, filter and interpolate whale movement tracks, and estimate migratory routes"] as reported in:
+This repository contains the code used to perform the hierarchical switching state-space model described in subsection 2.3.1. as reported in:
 
-> [AUTORES COMPLETOS], ([AÑO]). [TÍTULO DEL ARTÍCULO]. *Scientific Reports*. https://doi.org/[DOI DEL ARTÍCULO CUANDO ESTÉ DISPONIBLE]
+> [ARTICLE REFERENCE]
 
 ## Correspondence with the manuscript
 
-| Script | Manuscript section / output |
+| Script | Manuscript section |
 |---|---|
-| `01_[nombre].R` | [p. ej. Data cleaning and filtering — Methods, section X.X] |
-| `02_[nombre].R` | [p. ej. Movement model — generates Figure X] |
-| `03_[nombre].R` | [p. ej. Migratory route estimation — generates Table X] |
-| `04_[nombre].R` | [p. ej. Final figures — Figures X, Y] |
-
-<!-- Ajusta esta tabla al número real de scripts. Es la parte que más valoran los revisores de reproducibilidad. -->
+| `ER.R` | [Encounter Rate — Methods, subsection 2.1.] |
+| `hDCRWS.R` | [hDCRWS model — Methods, subsection 2.3.1.] |
 
 ## Repository structure
 
 ```
-[nombre-repo]/
+[Fin-whale-movs]/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
@@ -43,9 +36,9 @@ This repository contains the code used to [DESCRIBIR BREVEMENTE QUÉ HACE EL CÓ
 
 ## Requirements
 
-- [R version X.X.X / Python version X.X]
+- R version 4.3.1 (2023-06-16 ucrt)
 - Key packages/libraries:
-  - `[paquete]` (v[X.X.X])
+  - `readr` (v[X.X.X])
   - `[paquete]` (v[X.X.X])
   - `[paquete]` (v[X.X.X])
 
@@ -89,7 +82,7 @@ pip install -r requirements.txt
 
 ## License
 
-This code is released under the [MIT / GPL-3.0] License. See [`LICENSE`](./LICENSE) for details.
+This code is released under the MIT License. See [`LICENSE`](./LICENSE) for details.
 
 ## How to cite
 
@@ -101,7 +94,6 @@ If you use this code, please cite both the associated article and this repositor
 
 ## Contact
 
-[Tu nombre] — [tu email institucional]
-[Nombre corresponding author, si aplica] — [email]
+[Blanca Feliu Tena] — [blanca.feliu@ieo.csic.es]
 
-Instituto Español de Oceanografía (IEO-CSIC) / [otra afiliación relevante]
+Centro Oceanográfico de Murcia (COMU-IEO), CSIC / Instituto de Investigación para la Gestión Integrada de Zonas Costeras, Universitat Politècnica de València
