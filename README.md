@@ -94,6 +94,6 @@ If you use this code, please cite both the associated article and this repositor
 
 ## Contact
 
-[Blanca Feliu Tena] — [blanca.feliu@ieo.csic.es]
+Blanca Feliu Tena — blanca.feliu@ieo.csic.es
 
 Centro Oceanográfico de Murcia (COMU-IEO), CSIC / Instituto de Investigación para la Gestión Integrada de Zonas Costeras, Universitat Politècnica de València
