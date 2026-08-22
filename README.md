@@ -25,7 +25,7 @@ Fin-whale-movs/
 ├── CITATION.cff
 ├── renv.lock
 ├── data/
-│   └── not included — see Data availability
+│   └── not included — see Data availability statements
 ├── scripts/
 │   ├── ER.R
 │   ├── hDCRWS.R
@@ -50,14 +50,11 @@ Full dependency versions are listed in `renv.lock`.
 
 ```bash
 # Clone the repository
-git clone https://github.com/[usuario]/[nombre-repo].git
-cd [nombre-repo]
+git clone https://github.com/bfeliutena/Fin-whale-movs.git
+cd Fin-whale-movs
 
-# R example (using renv)
+# R (using renv)
 R -e "renv::restore()"
-
-# Python example
-pip install -r requirements.txt
 ```
 
 ## Usage
@@ -68,13 +65,10 @@ pip install -r requirements.txt
 
 ## Input data format
 
-[Describir el formato esperado de los datos de entrada aunque no se incluyan los datos reales, p. ej.:]
-
 - Format: `.csv`
-- Required columns: `individual_id`, `datetime` (UTC, ISO 8601), `latitude`, `longitude`, `[otras columnas]`
-- Units: [especificar]
+- Required columns: `id`, `date` (UTC, ISO 8601), `lc`, `latitude`, `longitude`
 
-> **Note:** Raw tracking data are not included in this repository due to the sensitivity of precise geolocation data for a protected species. [Ajustar o eliminar esta nota según corresponda — indicar si los datos están disponibles bajo petición razonada, en un repositorio de datos separado con DOI propio, o con qué restricciones.]
+> **Note:** Raw tracking data are not included in this repository. The datasets analyzed during the current study – satellite telemetry data and land-based observations – are available from the corresponding authors upon reasonable request. The satellite telemetry data is available for view-only on the BlueCorridors.org website.
 
 ## Reproducibility notes
 
