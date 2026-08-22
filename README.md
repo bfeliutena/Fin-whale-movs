@@ -5,7 +5,7 @@
 
 ## Description
 
-This repository contains the code used to calculate the Encouter Rates (ER) as described in subsection 2.1. and to perform the hierarchical switching state-space model described in subsection 2.3.1., as reported in:
+This repository contains the code used to perform the hierarchical switching state-space model described in subsection 2.3.1., as reported in:
 
 > [ARTICLE REFERENCE]
 
@@ -13,7 +13,6 @@ This repository contains the code used to calculate the Encouter Rates (ER) as d
 
 | Script | Manuscript section |
 |---|---|
-| `ER.R` | Encounter Rate — Methods, subsection 2.1. |
 | `hDCRWS.R` | hDCRWS model — Methods, subsection 2.3.1. |
 
 ## Repository structure
@@ -23,11 +22,9 @@ Fin-whale-movs/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-├── renv.lock
 ├── data/
 │   └── not included — see Data availability statements
 ├── scripts/
-│   ├── ER.R
 │   ├── hDCRWS.R
 ```
 
@@ -44,25 +41,6 @@ Fin-whale-movs/
   - `rjags` (v4-16)
   - `bsam` (v1.1.3)
 
-Full dependency versions are listed in `renv.lock`.
-
-## Installation
-
-```bash
-# Clone the repository
-git clone https://github.com/bfeliutena/Fin-whale-movs.git
-cd Fin-whale-movs
-
-# R (using renv)
-R -e "renv::restore()"
-```
-
-## Usage
-
-1. [Paso 1 — p. ej. "Place input tracking data in `data/raw/` following the format described below"]
-2. [Paso 2 — p. ej. "Run scripts in numerical order: `Rscript scripts/01_[nombre].R`"]
-3. [Paso 3 — resultado esperado]
-
 ## Input data format
 
 - Format: `.csv`
@@ -72,8 +50,6 @@ R -e "renv::restore()"
 
 ## Reproducibility notes
 
-- Random seeds are fixed (`set.seed([valor])`) in scripts where applicable to ensure reproducible results.
-- All file paths are relative; no local/absolute paths are required to run the code.
 - [Indicar cualquier paso manual, revisión visual, o parámetro ajustado a mano durante el análisis original, si lo hay.]
 
 ## License
