@@ -13,8 +13,8 @@ This repository contains the code used to calculate the Encouter Rates (ER) as d
 
 | Script | Manuscript section |
 |---|---|
-| `ER.R` | [Encounter Rate — Methods, subsection 2.1.] |
-| `hDCRWS.R` | [hDCRWS model — Methods, subsection 2.3.1.] |
+| `ER.R` | Encounter Rate — Methods, subsection 2.1. |
+| `hDCRWS.R` | hDCRWS model — Methods, subsection 2.3.1. |
 
 ## Repository structure
 
