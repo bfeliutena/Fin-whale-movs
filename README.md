@@ -5,7 +5,7 @@
 
 ## Description
 
-This repository contains the code used to perform the hierarchical switching state-space model described in subsection 2.3.1. as reported in:
+This repository contains the code used to calculate the Encouter Rates (ER) as described in subsection 2.1. and to perform the hierarchical switching state-space model described in subsection 2.3.1., as reported in:
 
 > [ARTICLE REFERENCE]
 
@@ -19,30 +19,32 @@ This repository contains the code used to perform the hierarchical switching sta
 ## Repository structure
 
 ```
-[Fin-whale-movs]/
+Fin-whale-movs/
 ├── README.md
 ├── LICENSE
 ├── CITATION.cff
-├── environment.yml / requirements.txt
+├── renv.lock
 ├── data/
-│   └── [describir qué contiene, o indicar "not included — see Data availability"]
+│   └── not included — see Data availability
 ├── scripts/
-│   ├── 01_[nombre].R
-│   ├── 02_[nombre].R
-│   └── ...
-└── outputs/
-    └── [ejemplos de salida, opcional]
+│   ├── ER.R
+│   ├── hDCRWS.R
 ```
 
 ## Requirements
 
 - R version 4.3.1 (2023-06-16 ucrt)
-- Key packages/libraries:
-  - `readr` (v[X.X.X])
-  - `[paquete]` (v[X.X.X])
-  - `[paquete]` (v[X.X.X])
+- Libraries:
+  - `readr` (v2.1.5)
+  - `rgdal` (v1.6-7)
+  - `rworldxtra` (v1.01)
+  - `latticeExtra` (v0.6-30)
+  - `dplyr` (v1.1.4)
+  - `lubridate` (v1.9.3)
+  - `rjags` (v4-16)
+  - `bsam` (v1.1.3)
 
-Full dependency versions are listed in [`environment.yml` / `requirements.txt` / `renv.lock`].
+Full dependency versions are listed in `renv.lock`.
 
 ## Installation
 
