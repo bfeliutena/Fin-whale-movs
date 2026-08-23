@@ -7,7 +7,7 @@
 
 This repository contains the code used to perform the hierarchical switching state-space model described in subsection 2.3.1., as reported in:
 
-> [ARTICLE REFERENCE]
+> (not definitive) Viola Panigada, Blanca Feliu-Tena, Eduardo J. Belda, Eduard Degollada, Victor Gallego, Douglas P. Nowacek, Pablo Santonja, Beatriu Tort & Simone Panigada. (2026). Fin Whale Departures from the North-West Mediterranean Sea Reveal Summer Habitat Use in the North Atlantic and Potential Feeding Opportunities. *Scientific Reports*. [DOI ARTÍCULO]
 
 ## Correspondence with the manuscript
 
@@ -50,7 +50,7 @@ Fin-whale-movs/
 
 ## Reproducibility notes
 
-- [Indicar cualquier paso manual, revisión visual, o parámetro ajustado a mano durante el análisis original, si lo hay.]
+- [...]
 
 ## License
 
@@ -60,9 +60,9 @@ This code is released under the MIT License. See [`LICENSE`](./LICENSE) for deta
 
 If you use this code, please cite both the associated article and this repository:
 
-> [AUTORES]. ([AÑO]). [TÍTULO DEL ARTÍCULO]. *Scientific Reports*. https://doi.org/[DOI ARTÍCULO]
+> (not definitive) Viola Panigada, Blanca Feliu-Tena, Eduardo J. Belda, Eduard Degollada, Victor Gallego, Douglas P. Nowacek, Pablo Santonja, Beatriu Tort & Simone Panigada. (2026). Fin Whale Departures from the North-West Mediterranean Sea Reveal Summer Habitat Use in the North Atlantic and Potential Feeding Opportunities. *Scientific Reports*. [DOI ARTÍCULO]
 
-> [AUTORES]. ([AÑO]). [NOMBRE DEL REPOSITORIO] (Version v1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.XXXXXXX
+> (not definitive) Blanca Feliu-Tena. (2025). Fin-whale-movs (Version v1.0.0) R. Zenodo. [DOI ZENODO]
 
 ## Contact
 
