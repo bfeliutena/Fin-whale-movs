@@ -9,7 +9,7 @@
 # Input:  data/data7w.csv
 # Output: outputs/Supplementary Information (SI).pdf, Figure S1
 #
-# Author: Blanca Feliu-Tena
+# Author: Blanca Feliu-Tena & Eduardo J. Belda
 # Date created: 2025-08-23
 # R version: 4.3.1
 # ==============================================================================
