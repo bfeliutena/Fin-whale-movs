@@ -49,7 +49,7 @@ Fin-whale-movs/
 
 ## Reproducibility notes
 
-- [...]
+- The code is ready to work with cleaned data: locations classified as Argos class Z, as well as raw positions falling on land, have already been excluded prior to running the pipeline.
 
 ## License
 
