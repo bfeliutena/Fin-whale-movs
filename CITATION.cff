@@ -1,0 +1,63 @@
+cff-version: 1.0.0
+message: "If you use this code, please cite both the associated article and this repository as below."
+type: software
+title: "Fin-whale-movs"
+abstract: ""
+authors:
+  - family-names: "Feliu-Tena"
+    given-names: "Blanca"
+    affiliation: "Centro Oceanográfico de Murcia (COMU-IEO), CSIC"
+    orcid: "https://orcid.org/0000-0003-0043-5605"
+  - family-names: "Belda"
+    given-names: "Eduardo J."
+    affiliation: "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, UPV"
+    orcid: "https://orcid.org/0000-0003-1995-1271"
+version: 1.0.0
+date-released: "2026-08-31"
+doi: "10.5281/zenodo.XXXXXXX"
+url: "https://github.com/bfeliutena/Fin-whale-movs"
+repository-code: "https://github.com/bfeliutena/Fin-whale-movs"
+license: MIT
+keywords:
+  - fin whale
+  - Balaenoptera physalus
+  - satellite tracking
+  - migration
+  - Mediterranean Sea
+  - movement ecology
+preferred-citation:
+  type: article
+  title: "Fin Whale Movement Patterns from the Mediterranean Sea Reveal Summer Habitat Use in the North Atlantic and Potential Feeding Opportunities"
+  authors:
+    - family-names: "Panigada"
+      given-names: "Viola"
+      affiliation: "Duke University Marine Lab; Tethys Research Institute"
+    - family-names: "Feliu-Tena"
+      given-names: "Blanca"
+      affiliation: "Centro Oceanográfico de Murcia (COMU-IEO), CSIC; Instituto de Investigación para la Gestión Integrada de Zonas Costeras, UPV"
+    - family-names: "Belda"
+      given-names: "Eduardo J."
+      affiliation: "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, UPV"
+    - family-names: "Degollada"
+      given-names: "Eduard"
+      affiliation: "EDMAKTUB Association"
+    - family-names: "Gallego"
+      given-names: "Víctor"
+      affiliation: "Instituto Investigación de Ciencia y Tecnología Animal, UPV"
+    - family-names: "Nowacek"
+      given-names: "Douglas P."
+      affiliation: "Pratt School of Engineering, Duke Univerity"
+    - family-names: "Santonja"
+      given-names: "Pablo"
+      affiliation: "Instituto de Investigación para la Gestión Integrada de Zonas Costeras, UPV"
+    - family-names: "Tort"
+      given-names: "Beatriu"
+      affiliation: "EDMAKTUB Association"
+    - family-names: "Panigada"
+      given-names: "Simone"
+      affiliation: "Tethys Research Institute"    
+  journal: "Scientific Reports"
+  year: 2026
+  doi: "[DOI DEL ARTÍCULO CUANDO ESTÉ DISPONIBLE]"
+  volume: "[VOLUMEN]"
+  issue: "[NÚMERO]"
