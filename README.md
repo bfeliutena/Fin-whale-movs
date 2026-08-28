@@ -1,7 +1,6 @@
 # Fin-whale-movs
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX)
-<!-- Este badge se genera automáticamente desde Zenodo una vez creado el release. Sustituye XXXXXXX por tu DOI real. -->
 
 ## Description
 
