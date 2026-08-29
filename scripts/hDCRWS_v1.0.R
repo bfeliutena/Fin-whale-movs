@@ -34,7 +34,7 @@ head(data)
 #View(data)
 #table(data$lc)
 
-# 3. Data cleaning / filtering ------------------------------------------------------------
+# 3. Data cleaning ------------------------------------------------------------
 data <- data[!is.na(data$lc),] # remove NaN from lc column
 data$id<- as.character(data$id) # change variable type of id column
 data$lc<- as.ordered(data$lc) # change variable type of lc column
