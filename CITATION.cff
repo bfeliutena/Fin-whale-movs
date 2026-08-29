@@ -2,7 +2,7 @@ cff-version: 1.0.0
 message: "If you use this code, please cite both the associated article and this repository as below."
 type: software
 title: "Fin-whale-movs"
-abstract: ""
+abstract: "Code used to perform the hierarchical switching state-space model"
 authors:
   - family-names: "Feliu-Tena"
     given-names: "Blanca"
