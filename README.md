@@ -61,7 +61,7 @@ If you use this code, please cite both the associated article and this repositor
 
 > (not definitive) Viola Panigada, Blanca Feliu-Tena, Eduardo J. Belda, Eduard Degollada, Victor Gallego, Douglas P. Nowacek, Pablo Santonja, Beatriu Tort & Simone Panigada. (2026). Fin Whale Departures from the North-West Mediterranean Sea Reveal Summer Habitat Use in the North Atlantic and Potential Feeding Opportunities. *Scientific Reports*. [DOI ARTÍCULO]
 
-> (not definitive) Blanca Feliu-Tena & Eduardo J. Belda. (2026). Fin-whale-movs (Version v1.0.0) R. Zenodo. [DOI ZENODO]
+> Blanca Feliu-Tena & Eduardo J. Belda. (2026). Fin-whale-movs (Version v1.0.0) R. Zenodo. https://doi.org/10.5281/zenodo.22162495
 
 ## Contact
 
